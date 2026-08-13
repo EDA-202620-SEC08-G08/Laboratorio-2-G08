@@ -55,8 +55,8 @@ def print_menu():
     print("Opciones:")
     print("1- Cargar Libros")
     print("2- Cargar Tags")
-    print("3- Cargar Tags de Libros")
     # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
+    print("3- Cargar los tags de los libros")
     print("0- Salir")
 
 
