@@ -172,7 +172,9 @@ def add_book_tags_file(catalog, booktagsfile):
     :rtype: dict
     """
     # TODO: Mods de Est-1, Est-2 y Est-3 en el Lab 2
-    pass
+    bt = set.load_set(set.new_set(), booktagsfile)
+    catalog["book_tags"] = bt
+    return catalog
 
 
 def create_book_tag_list(catalog):
